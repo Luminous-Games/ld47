@@ -28,7 +28,7 @@ public class UI : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #elif UNITY_WEBGL
-        Application.OpenURL("https://ldjam.com/events/ludum-dare/47/$221274");
+        Application.OpenURL("https://ldjam.com/events/ludum-dare/47/timefabric");
 #else
         Application.Quit();
 #endif
